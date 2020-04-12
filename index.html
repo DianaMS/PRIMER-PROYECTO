@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <title>Trivia</title>
+    <link rel="stylesheet" href="estilos.css">
+    
+</head>
+
+<body>
+    <header id="seccionIndex">
+        <h1>Bienvenid@ a la Trivia</h1>
+        <h2>DALE PLAY</h2>
+        <h3>Ingresa tu nombre:</h3>
+        <input id="nombre" type="text" placeholder="Ingrese su nombre" >
+        <button  onclick="saludo()">Empezar</button>
+    </header>
+
+    <div>
+        <div id="saludo"style="display:none;"></div>
+        
+        <div align="center">    
+            <a href="quiz-ciencias.html" id="ciencias"  style="display:none;">Ciencias</a>
+            <a href="quiz-letras.html" id="letras"  style="display:none;">Letras</a>
+        </div>
+    </div>
+    <script src="saludo.js"></script>
+    
+
+</body>
+
+</html>

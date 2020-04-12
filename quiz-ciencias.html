@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia</title>
+    <link rel="stylesheet" href="estilos.css">
+    
+</head>
+
+<body>
+    <div id="quizContainer" class="def">
+        <div>Quiz de Ciencias</div>
+        <div id="question"></div><br>
+        <div class="abc">
+        <form>
+        <input type="radio" name="option" value="1" /> <span id="opt1"></span><br>
+        <input type="radio" name="option" value="2" /> <span id="opt2"></span><br>
+        <input type="radio" name="option" value="3" /> <span id="opt3"></span><br>
+        <input type="radio" name="option" value="4" /> <span id="opt4"></span><br>
+       </div>
+       </form> 
+        <button id="nextButton" onclick="loadNextQuestion();">Siguiente</button>
+    </div>
+
+    <div id="titleResult" style="display:none;"></div>
+    <div id="result1" style="display:none;"></div>
+    <div id="result2" style="display:none;"></div>
+    <div align="center">
+        <a href="index.html" id="volver"  style="display:none;">Volver a jugar</a>
+        <a href="https://www.google.com" id="salir"  style="display:none;">Salir</a>
+    </div>
+    <script src="question-ciencias.js "></script>
+    <script src="quiz-script.js "></script>
+</body>
+
+</html>
